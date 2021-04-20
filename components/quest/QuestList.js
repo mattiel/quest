@@ -5,7 +5,7 @@ const QuestItemSimple = ({quests}) => {
   const [progress, setProgress] = useState(0);
 
   return (
-    <ul className="p-2 bg-gray-100 flex-1 space-y-2">
+    <ul className="p-2 bg-gray-100 flex-1 space-y-2 overflow-y-auto">
       {
         quests
           ? quests.map((quest, idx) => {
