@@ -29,7 +29,7 @@ const Layout = ({
   useEffect(() => {
     fetchQuests()
     console.log('Layout fetched data ==>> ', quests)
-  }, [user])
+  })
 
 
   return(
