@@ -1,3 +1,5 @@
+import ProgressBar from '../ProgressBar'
+
 export default function CoverProgress(props) {
   return(
     <div className="inline-flex flex-col bg-white rounded-xl right-4 bottom-4 p-3 text-sm w-48 shadow-md">

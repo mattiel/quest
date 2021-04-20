@@ -1,5 +1,4 @@
-import PorgressBar from '../ProgressBar'
-import CoverProcess from './CoverProgress'
+import CoverProgress from './CoverProgress'
 
 export default function Cover(props) {
   return (
@@ -12,7 +11,7 @@ export default function Cover(props) {
     >
       <div className="flex justify-between w-full items-end">
         <div className="text-3xl font-bold text-white">Life Goals</div>
-        <CoverProcess/>
+        <CoverProgress/>
       </div>
     </section>
   )

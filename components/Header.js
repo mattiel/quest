@@ -1,3 +1,4 @@
+import React, {useState} from 'react'
 import Link from 'next/link'
 
 const Header = () => {
@@ -15,7 +16,9 @@ const Header = () => {
             <Link href="/product"><a>Product</a></Link>
           </li>
           <li className="font-medium">
-            <a className="bg-blue-600 text-white p-2 rounded font-bold">Sign In</a>
+            <Link href="/login">
+              <a className="bg-blue-600 text-white p-2 rounded font-bold">Sign In</a>
+            </Link>
           </li>
         </ul>
       </div>
